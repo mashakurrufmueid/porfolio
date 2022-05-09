@@ -1,0 +1,287 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ .header{
+
+min-height: 100vh;
+width:100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/d1.jpg);
+background-position: center;
+background-size:cover;
+position:relative;
+}
+
+
+/*.......................navigation bar............................*/
+
+nav{
+
+display:flex;
+padding: 2% 1%;
+justify-content:space-between ;
+align-items: center;    
+}
+
+nav img{
+    width: 200px;
+    
+}
+
+.nav_links{
+
+    flex: 1;
+    text-align: right;
+}
+
+.nav_links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.nav_links ul li a{
+ 
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav_links ul li::after{
+
+    content:'' ;
+    width: 0%;
+    height: 5px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+
+.nav_links ul li:hover::after{
+
+    width: 100%;
+
+}
+ .text_box{
+
+width: 100%;
+color:white;
+position: absolute;
+top: 40%;
+bottom: 20%;
+text-align:center;
+
+}
+
+.text_box h1{
+
+    font-size: 50px;
+    color:whitesmoke;
+}
+
+.text_box p{
+    
+   margin: 20px 0 20px; 
+   font-size: 20px;
+   color:#ecb708;   
+}
+
+.text_box a{
+
+    margin: 20px 0 15px;
+    font-size: 20px;
+    color:rgb(241, 241, 237); 
+    
+}
+
+
+
+.box{
+
+display: inline-block;
+text-decoration: none;
+border: 5px solid orangered;
+padding: 10px 25px;
+font-size: 30px;
+background: transparent;
+position: relative;
+cursor:grab;
+
+}
+
+.box:hover{
+
+    border: 7px solid orangered;
+    background: orangered;
+    transition: 0.5s;
+}
+
+
+/*..........................................A little Bit about me...........................................*/
+
+
+
+
+.writting p{
+
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    flex-basis:10px ;
+    background: whitesmoke;
+    border-radius: 1px;
+    margin-bottom: 10%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+
+.me{
+
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgb(239, 241, 250),rgba(4,9,30,0.7));
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    
+}
+    
+.me_box{
+
+text-align: center;
+
+}
+
+div .me_box_1 h1{
+
+    font-size: 50px;
+    color:darkred;
+
+}
+
+   div .me_box_1{
+
+font-size: 33px;
+
+   }
+
+   .me_box a{
+
+    margin: 10px 0 5px;
+    font-size: 20px;
+    color:azure; 
+}
+
+   
+   /*.........................................Extra......................................................*/
+
+   div .top{
+
+    font-size: 50px;
+    text-align: center;
+    color:#2B1B17;
+    background-color: #838996;
+    }
+
+   .flexbox-container{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100px ;
+    
+    
+  }
+    
+   .flexbox-item{
+
+    margin: 50px;
+    justify-content: space-between;
+    padding-left: 20px;
+    
+}
+
+.flexbox-item img{
+
+width: 200px;
+
+}
+
+.flexbox-item img:hover{
+    
+    border: 5px  solid orangered;
+    background: orangered;
+    transition: 0.5s;
+    cursor: pointer;
+    position: relative;   
+   
+}
+
+.flexbox-container1{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100px ;
+    padding-left: 155px;
+    
+  }
+    
+
+
+.flexbox-item h5{
+
+    font-size: 20px;
+    color:black;
+}
+
+
+
+/*.................................................footer.........................................................*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.container{
+    
+    margin: auto;
+    align-items: center;
+    padding-left: 155px;
+}
+
+
+.footer{
+    background-color: #2B1B17;
+    padding: 20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

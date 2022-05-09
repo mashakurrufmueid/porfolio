@@ -1,0 +1,133 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.title h2{
+
+    text-align: center;
+    font-size: 50px;
+    color: #4B5320;
+    background-color: rgba(54, 77, 77, 0.418);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*...................keu nei........................*/
+
+.keu-nei{
+
+  padding-top: 100px;
+}
+
+.keu-nei h2{
+
+padding: 20px 50px;
+font-size: 40px;
+background-color: red;
+
+}
+
+.keu-nei p{
+
+  font-size: 15px;
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-top: 100px;
+  color: rgb(255, 249, 249);
+  background-image: linear-gradient(rgba(49, 12, 12, 0.719),rgba(49, 15, 15, 0.521)),url(images/keu.jpg);
+
+}
+
+
+/*..........................nokh...............................*/
+
+
+
+.nokh{
+
+padding-top: 100px;
+
+}
+
+.nokh h2{
+
+  padding: 20px 50px;
+  font-size: 40px;
+  background-color: rgb(104, 70, 25);
+  
+  }
+  
+  .nokh p{
+  
+    font-size: 15px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 100px;
+    color: rgb(255, 249, 249);
+    background-image: linear-gradient(rgba(49, 12, 12, 0.719),rgba(49, 15, 15, 0.521)),url(images/nokh.jpg);
+  
+  }
+
+
+
+  /*.............miss fortune....................*/
+
+  
+.miss{
+
+  padding-top: 100px;
+  
+  }
+  
+  .miss h2{
+  
+    padding: 20px 50px;
+    font-size: 40px;
+    background-color: rgb(21, 44, 66);
+    
+    }
+    
+    .miss p{
+    
+      font-size: 15px;
+      padding-left: 100px;
+      padding-right: 50px;
+      padding-top: 100px;
+      color: rgb(255, 249, 249);
+      background-image: linear-gradient(rgba(10, 9, 29, 0.719),rgba(13, 17, 41, 0.521)),url(images/miss.png);
+    
+    }
+  
+    /*.....................hotovaga...............*/
+
+
+    .hotovaga{
+
+      padding-top: 100px;
+      padding-bottom: 100px;
+      
+      }
+      
+      .hotovaga h2{
+      
+        padding: 20px 50px;
+        font-size: 40px;
+        background-color: rgb(211, 171, 98);
+        
+        }
+        
+        .hotovaga p{
+        
+          font-size: 15px;
+          padding-left: 100px;
+          padding-right: 50px;
+          padding-top: 100px;
+          color: rgb(255, 249, 249);
+          background-image: linear-gradient(rgba(10, 9, 29, 0.719),rgba(13, 17, 41, 0.521)),url(images/hotovaga.jpg);
+          padding-bottom: 100px;        
+        }
+      

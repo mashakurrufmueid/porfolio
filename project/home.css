@@ -42,6 +42,7 @@ nav img{
     display: inline-block;
     padding: 10px 10px;
     position: relative;
+    
 }
 
 .nav_links ul li a{
@@ -53,7 +54,7 @@ nav img{
 
 .nav_links ul li::after{
 
-    content:'' ;
+   content: '';
     width: 0%;
     height: 5px;
     background: red;
@@ -128,19 +129,6 @@ cursor:grab;
 
 
 
-.writting p{
-
-    text-align: center;
-    padding-top: 50px;
-    font-size: 50px;
-    color: rgb(0, 0, 0);
-    flex-basis:10px ;
-    background: whitesmoke;
-    border-radius: 1px;
-    margin-bottom: 10%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-}
 
 
 .me{
@@ -181,6 +169,12 @@ font-size: 33px;
 }
 
    
+.me_box_1 p{
+
+    color: #000000;
+}
+
+
    /*.........................................Extra......................................................*/
 
    div .top{
@@ -206,7 +200,7 @@ font-size: 33px;
 
     margin: 50px;
     justify-content: space-between;
-    padding-left: 20px;
+    padding-left:20px;
     
 }
 
